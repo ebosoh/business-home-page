@@ -71,6 +71,37 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
+.src{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    color: orange;
+    border: 1px solid orange;
+    /*border-radius: 20px;*/
+    font-size: 18px;
+    padding: 10px;
+    border-right: none;
+    
+}
+.btn{
+width: 100px;
+height: 40px;
+background: orange;
+border: 2px solid orange;
+margin-top: 5px;
+color: white;
+font-size: 18px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 0px;
+
+}
+.btn:focus{
+    outline: none;
+}
+.src:focus{
+    outline: none;
+}
