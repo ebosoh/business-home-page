@@ -14,8 +14,11 @@ color: orange;
     padding-left: 20px;
     padding-top: 5px;
     float: left;
-    height: 70px;
+    height: 0px;
     
+}
+.logo:hover{
+    cursor: pointer;
 }
 .main{
    width: 100%;
@@ -47,6 +50,7 @@ ul{
     float: left;
     width: 600px;
     height: 70px;
+    margin-bottom: 10px;
 }
 ul li{
     list-style: none;
@@ -72,12 +76,14 @@ ul li a:hover{
     width: 330px;
     float: left;
     margin-top: 5px;
+    
+    
 }
 
 .src{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 200px;
-    height: 40px;
+    height: 30px;
     background: transparent;
     color: orange;
     border: 1px solid orange;
@@ -89,14 +95,14 @@ ul li a:hover{
 }
 .btn{
 width: 100px;
-height: 40px;
+height: 30px;
 background: orange;
 border: 2px solid orange;
 margin-top: 5px;
 color: white;
 font-size: 18px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin-left: 0px;
+margin-right: 0px;
 
 }
 .btn:focus{
@@ -104,4 +110,32 @@ margin-left: 0px;
 }
 .src:focus{
     outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    padding: 0%;
+
+
+}
+.heading{
+    float: left;
+}
+.p1{
+    float: left;
+}
+.more-button{
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    
+}
+.more-button a{
+    color: white;
+    text-decoration: none;
+
 }
