@@ -174,7 +174,7 @@ line-height: 40px;
 
  .form{
     width: 250px;
-    height: 400px;
+    height: 450px;
     position: absolute;
     top: 120px;
     left: 870px;
@@ -241,11 +241,29 @@ line-height: 40px;
  .link2{
     color: white;
     font-size: 18px;
-    text-align: center;
+    /*text-align: center;*/
     
  }
 
  .form a{
     color: orange;
     text-decoration: none;
+ }
+
+ .icons a{
+    color: white;
+    
+ }
+
+ .icons{
+    margin-top: 10px;
+    padding-top: 15px;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+
+ }
+
+ .icons ion-icon:hover{
+    transform: scale(1.5);
  }
